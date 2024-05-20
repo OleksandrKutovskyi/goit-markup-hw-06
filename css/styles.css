@@ -294,7 +294,7 @@ HERO
     max-width: 1440px;
     margin: 0 auto;
     padding: 72px 0;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mob@2x-min.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mob-min.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     color: #fff;
@@ -342,11 +342,19 @@ HERO
     background: #404bbf;
 }
 
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mob@2x-min.jpg);
+    }
+}
+
+
+
 @media screen and (min-width: 768px) {
 
     .hero {
         padding: 112px 0;
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab@2x-min.jpg);
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg);
     }
 
     .hero-container {
@@ -363,11 +371,17 @@ HERO
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab@2x-min.jpg);
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .hero {
         max-width: 1440px;
         padding: 188px 0;
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desctop@2x-min.jpg);
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desctop-min.jpg);
     }
 
     .hero-container {
@@ -380,6 +394,12 @@ HERO
         margin: 0 auto 48px auto;
         max-width: 496px;
         text-align: center;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desctop@2x-min.jpg);
     }
 }
 
