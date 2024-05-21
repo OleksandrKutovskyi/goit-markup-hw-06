@@ -918,6 +918,7 @@ FOOTER
     .footer-container {
         gap: 0;
         padding-left: 15px;
+        max-width: 1158px;
     }
 
     .footer-part-logo {
